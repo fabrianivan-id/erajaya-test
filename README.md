@@ -7,7 +7,7 @@
 # Table of Content
 - [Description](#description)
 - [How to Use](#how-to-use)
-- [Database Schema](#database-schema)
+- [Cloud Architecture](#cloud)
 - [Feature](#feature)
 - [Endpoints](#endpoints)
 - [Credits](#credits)
@@ -15,14 +15,15 @@
 # Description
 Erajaya test merupakan projek berbasis Restful API yang dibuat dengan struktur MVC(Media-View-Controller) yang lebih mudah untuk dilakukan perbaikan error dan bug.
 
-# Database Schema
-![ERD]()
+# Cloud Architecture
+![Cloud](https://github.com/fabrianivan21/erajaya-test/blob/main/documentation/AWS.jpg)
+- Saya menggunakan arsitektur cloud seperti ini adalah untuk mencegah kebocoran data produk yang belum akan dirilis sehingga hanya produk sudah dirilis saja yang dapat diakses
 
 # Feature
 List of overall feature in this Project (To get more details see the API Documentation below)
 | No.| Feature        | Role                     | Keterangan                                                                              |
 | :- | :------------- | :----------------------- | :-------------------------------------------------------------------------------------- |
-| 1. | Product        | Admin                    | Add Product, Show product sorted by latest, A to Z, Z to A, highest price, lowest price |                                                            |
+| 1. | Product        | Admin                    | Add Product, Show product sorted by latest, A to Z, Z to A, highest price, lowest price |                                     
 
 # How to Use
 - Install Go and Database MySQL/XAMPP
