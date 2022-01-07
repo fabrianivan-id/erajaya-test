@@ -41,7 +41,13 @@ sample-env
 go run main.go
 ```
 # Endpoints
-Read the API documentation here [API Endpoint Documentation]() (Swagger)
+| No.| End Point             | Role                     | Keterangan                                                                  |
+| :- | :-------------------- | :----------------------- | :-------------------------------------------------------------------------- |
+| 1. | /products             | Admin                    | Add Product, Show product by A to Z                                         |
+| 2. | /products/latest      | Admin                    | Show product by latest one                                                  |
+| 3. | /products/desc        | Admin                    | Show product by Z to A                                                      |
+| 4. | /products/highest     | Admin                    | Show product by highest                                                     |
+| 5. | /products/lowest      | Admin                    | Show product by lowest                                                      |
 
 # Credits
 - [Fabrian Ivan Prasetya](https://github.com/fabrianivan21) (Author)
