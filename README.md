@@ -18,11 +18,6 @@ Erajaya test merupakan projek berbasis Restful API yang dibuat dengan struktur M
 # Database Schema
 ![ERD]()
 
-# Testing Coverage
-
-
-![TESTING]()
-
 # Feature
 List of overall feature in this Project (To get more details see the API Documentation below)
 | No.| Feature        | Role                     | Keterangan                                                                              |
